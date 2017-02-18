@@ -19,3 +19,11 @@ Route::post('/todo','todoController@save');
 
 Route::get('/show', 'todoController@indexShow');
 Route::post('/show','todoController@show');
+
+Route::get('/delete/{id}','todoController@delete');
+
+Route::get('/update/{id}','todoController@update');
+Route::post('/update','todoController@edit');
+
+Route::get('/remind', 'todoController@remindV');
+Route::post('/remind','todoController@remind');
