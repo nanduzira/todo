@@ -10,5 +10,7 @@
             <input type="submit" value="Save">
             {{csrf_field()}}
         </form>
+        </br>
+        <a href="/todo/server.php/show">View</a>
     </body>
 </html>

@@ -9,9 +9,9 @@
             {{csrf_field()}}
             <input type="submit" value="Show">
             {{csrf_field()}}
-        </form>
+        </form></br>
         @if(isset($todos))
-            {{ $todos }}
+            {{$todos}}
         @endif
     </center>
     </body>
