@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/todo', 'todoController@index');
+Route::post('/todo','todoController@save');
+
+Route::get('/show', 'todoController@indexShow');
+Route::post('/show','todoController@show');
